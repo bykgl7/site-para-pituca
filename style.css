@@ -1,0 +1,59 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo do site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffebf3; /* Cor de fundo rosa claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container da mensagem */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 2.5rem;
+    color: #e91e63; /* Cor rosa */
+    margin-bottom: 20px;
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo da imagem do coração */
+.heart {
+    width: 100px;
+    height: auto;
+    animation: heartbeat 1.5s infinite;
+}
+
+/* Animação do coração */
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
